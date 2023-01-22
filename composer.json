@@ -1,0 +1,11 @@
+{
+    "name": "acer/my-sid",
+    "description": "sistem informasi desa",
+    "authors": [
+        {
+            "name": "muhammadirfan96",
+            "email": "muhammadirfanirfani808@gmail.com"
+        }
+    ],
+    "require": {}
+}
