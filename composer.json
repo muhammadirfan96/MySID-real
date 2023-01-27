@@ -7,5 +7,10 @@
             "email": "muhammadirfanirfani808@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "codeigniter4/framework": "^4.3",
+        "myth/auth": "^1.2",
+        "mpdf/mpdf": "^8.1",
+        "twbs/bootstrap-icons": "^1.10"
+    }
 }
