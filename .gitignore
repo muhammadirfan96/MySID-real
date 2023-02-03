@@ -21,6 +21,9 @@ application/logs/*
 !application/logs/.htaccess
 /vendor/
 
+#npm
+/node_modules/
+
 ### CodeIgniter Patch ###
 
 # End of https://www.toptal.com/developers/gitignore/api/codeigniter

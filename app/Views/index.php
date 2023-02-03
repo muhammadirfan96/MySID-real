@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <title><?= $title[0]; ?></title>
-    <link rel="stylesheet" href="./fonts/andika/stylesheet.css">
-    <link rel="stylesheet" href="./fonts/ff-din/black/stylesheet.css">
-    <link rel="stylesheet" href="./bi/font/bootstrap-icons.css">
-    <script src="./jquery/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="/fonts/andika/stylesheet.css">
+    <link rel="stylesheet" href="/fonts/ff-din/black/stylesheet.css">
+    <link rel="stylesheet" href="/bi/font/bootstrap-icons.css">
+    <script src="/js/jquery/script.js"></script>
 </head>
 
 <body class="mx-2 md:mx-1 font-andika">
@@ -123,59 +123,59 @@
                 <i class="bi-speedometer"></i>
                 <p class='text-xs'>home</p>
             </a>
-            <a onclick="" href="<?= base_url('/infoDesa'); ?>" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/info_desa" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-info"></i>
                 <p class='text-xs'>info desa</p>
             </a>
-            <a onclick="" href="<?= base_url('/kependudukan'); ?>" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/kependudukan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-people"></i>
                 <p class='text-xs'>penduduk</p>
             </a>
-            <a onclick="" href="halaman\statistik.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/statistik" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-graph-up-arrow"></i>
                 <p class='text-xs'>statistik</p>
             </a>
-            <a onclick="" href="halaman\layanan_surat.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/layanan_surat" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-envelope"></i>
                 <p class='text-xs'>surat</p>
             </a>
-            <a onclick="" href="halaman\sekretariat.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/sekretariat" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-building"></i>
                 <p class='text-xs'>sekretariat</p>
             </a>
-            <a onclick="" href="halaman\keuangan.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/keuangan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-coin"></i>
                 <p class='text-xs'>keuangan</p>
             </a>
-            <a onclick="" href="halaman\analisis.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/analisis" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-pie-chart"></i>
                 <p class='text-xs'>analisis</p>
             </a>
-            <a onclick="" href="halaman\bantuan.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/bantuan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-gift"></i>
                 <p class='text-xs'>bantuan</p>
             </a>
-            <a onclick="" href="halaman\pertanahan.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/pertanahan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-map"></i>
                 <p class='text-xs'>pertanahan</p>
             </a>
-            <a onclick="" href="halaman\pembangunan.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/pembangunan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-buildings"></i>
                 <p class='text-xs'>pembangunan</p>
             </a>
-            <a onclick="" href="halaman\lapak.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/lapak" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-cart"></i>
                 <p class='text-xs'>lapak</p>
             </a>
-            <a onclick="" href="halaman\pemetaan.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/pemetaan" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-globe-americas"></i>
                 <p class='text-xs'>pemetaan</p>
             </a>
-            <a onclick="" href="halaman\admin_web.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/admin_web" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-laptop"></i>
                 <p class='text-xs'>admin</p>
             </a>
-            <a onclick="" href="halaman\layanan_mandiri.html" class='bg-cyan-50 rounded-md p-1'>
+            <a href="/layanan_mandiri" class='bg-cyan-50 rounded-md p-1'>
                 <i class="bi-person"></i>
                 <p class='text-xs'>layanan</p>
             </a>
@@ -183,32 +183,12 @@
     </div>
 
     <!-- end nav mobile -->
-
+    <script src="/js/myscript/navigation.js"></script>
     <!-- bar end -->
 
-    <script>
-        const setNavMobile = () => {
-            const navMobile = document.querySelector("#navMobile");
-            const first = document.querySelector("#first");
-            const second = document.querySelector("#second");
-            navMobile.classList.toggle("-mb-56");
-            first.classList.toggle("translate-x-2");
-            second.classList.toggle("-translate-x-2");
-        };
-
-        const setSidebar = () => {
-            const one = document.querySelector("#one");
-            const two = document.querySelector("#two");
-            const three = document.querySelector("#three");
-            const container = document.querySelector("#container");
-            const sidebar = document.querySelector("#sidebar");
-            one.classList.toggle("rotate-[35deg]");
-            two.classList.toggle("opacity-0");
-            three.classList.toggle("-rotate-[35deg]");
-            container.classList.toggle("md:ml-60");
-            sidebar.classList.toggle("-ml-60");
-        };
-    </script>
+    <!-- sweet alert -->
+    <script src="/js/sweetalert/script.js"></script>
+    <script src="/js/sweetalert/alert.js"></script>
 </body>
 
 </html>

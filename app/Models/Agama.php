@@ -14,7 +14,7 @@ class Agama extends Model
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['id', 'agama', 'waktu_input', 'waktu_update', 'diinput_oleh'];
 
     // Dates
     protected $useTimestamps = false;

@@ -29,24 +29,37 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Halaman\Home::index');
-$routes->get('/info_desa', 'Halaman\InfoDesa::index');
-$routes->get('/kependudukan', 'Halaman\Kependudukan::index');
-$routes->get('/statistik', 'Halaman\Statistik::index');
-$routes->get('/layanan_surat', 'Halaman\LayananSurat::index');
-$routes->get('/sekretariat', 'Halaman\Sekretariat::index');
-$routes->get('/keuangan', 'Halaman\Keuangan::index');
-$routes->get('/analisis', 'Halaman\Analisis::index');
-$routes->get('/bantuan', 'Halaman\Bantuan::index');
-$routes->get('/pertanahan', 'Halaman\Pertanahan::index');
-$routes->get('/pembangunan', 'Halaman\Pembangunan::index');
-$routes->get('/lapak', 'Halaman\Lapak::index');
-$routes->get('/pemetaan', 'Halaman\Pemetaan::index');
-$routes->get('/admin_web', 'Halaman\AdminWeb::index');
-$routes->get('/layanan_mandiri', 'Halaman\LayananMandiri::index');
+$routes->get('/', 'Home::index');
+$routes->get('/info_desa', 'InfoDesa::index');
+$routes->get('/kependudukan', 'Kependudukan::index');
+$routes->get('/statistik', 'Statistik::index');
+$routes->get('/layanan_surat', 'LayananSurat::index');
+$routes->get('/sekretariat', 'Sekretariat::index');
+$routes->get('/keuangan', 'Keuangan::index');
+$routes->get('/analisis', 'Analisis::index');
+$routes->get('/bantuan', 'Bantuan::index');
+$routes->get('/pertanahan', 'Pertanahan::index');
+$routes->get('/pembangunan', 'Pembangunan::index');
+$routes->get('/lapak', 'Lapak::index');
+$routes->get('/pemetaan', 'Pemetaan::index');
+$routes->get('/admin_web', 'AdminWeb::index');
+$routes->get('/layanan_mandiri', 'LayananMandiri::index');
 
-$routes->get('/agama/getData', 'Agama::getData');
-$routes->post('/agama/addData', 'Agama::addData');
+// ADMIN WEB
+$routes->get('/agama', 'AdminWeb\Agama::index');
+
+// API
+$routes->get('/agama/pageGetData/(:num)', 'Api\Agama::pageGetData/$1'); // ok
+$routes->get('/agama/perPageGetData', 'Api\Agama::perPageGetData'); // ok
+$routes->get('/agama/getData/(:num)/(:num)', 'Api\Agama::getData/$1/$2'); // ok
+
+$routes->get('/agama/pageSrchData/(:any)/(:num)', 'Api\Agama::pageSrchData/$1/$2');
+$routes->get('/agama/perPageSrchData/(:any)', 'Api\Agama::perPageSrchData/$1');
+$routes->get('/agama/srchData/(:any)/(:num)/(:num)', 'Api\Agama::srchData/$1/$2/$3');
+
+$routes->post('/agama/addData', 'Api\Agama::addData');
+$routes->post('/agama/editData', 'Api\Agama::editData');
+$routes->delete('/agama/deleteData/(:num)', 'Api\Agama::deleteData/$1');
 
 
 /*
