@@ -20,17 +20,6 @@ class Agama extends Migration
                 'constraint' => 50,
                 'null' => true,
             ],
-            'waktu_input' => [
-                'type' => 'DATETIME',
-            ],
-            'waktu_update' => [
-                'type' => 'DATETIME',
-            ],
-            'diinput_oleh' => [
-                'type'       => 'VARCHAR',
-                'constraint' => 100,
-                'null' => true,
-            ],
         ]);
         $this->forge->addKey('id', true);
         $this->forge->createTable('agamas');

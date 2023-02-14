@@ -1,0 +1,14 @@
+ERROR - 2023-02-08 16:37:22 --> mysqli_sql_exception: Table 'mysid.kewarganegaraans' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ke...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1787): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', NULL, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2178): CodeIgniter\Database\BaseBuilder->batchExecute('_insertBatch', 100)
+#5 D:\xampp1\htdocs\MySID\app\Database\Seeds\Kewarganegaraan.php(20): CodeIgniter\Database\BaseBuilder->insertBatch(Array)
+#6 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\Seeder.php(146): App\Database\Seeds\Kewarganegaraan->run()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Database\Seed.php(77): CodeIgniter\Database\Seeder->call('App\\Database\\Se...')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CLI\Commands.php(65): CodeIgniter\Commands\Database\Seed->run(Array)
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CLI\Console.php(37): CodeIgniter\CLI\Commands->run('db:seed', Array)
+#10 D:\xampp1\htdocs\MySID\spark(97): CodeIgniter\CLI\Console->run()
+#11 {main}

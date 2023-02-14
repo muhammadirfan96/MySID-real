@@ -1,0 +1,1034 @@
+ERROR - 2023-02-13 00:57:36 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 00:57:36 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 00:57:37 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 00:57:37 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 00:58:42 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 00:58:42 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 00:58:43 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 00:58:43 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:08:34 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:08:34 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:08:34 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:08:34 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:10:16 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:10:16 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:10:16 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:10:16 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:15:01 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:15:01 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:15:02 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:15:02 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:15:05 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(5, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('5', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:15:05 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 5', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(5, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(5, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('5', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:15:05 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('5')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:15:05 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('5')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:16:25 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:16:25 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:16:26 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:16:26 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:26:33 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:26:33 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:26:34 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:26:34 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:30:37 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:30:37 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:33:37 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:33:37 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:34:03 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:34:03 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:34:04 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:34:04 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:35:00 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `ke...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `ke...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `ke...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `ke...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(729): CodeIgniter\BaseModel->insert(Array, false)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(692): CodeIgniter\Model->insert(Array, false)
+#8 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(89): CodeIgniter\BaseModel->save(Array)
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->addData()
+#10 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#13 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#14 {main}
+CRITICAL - 2023-02-13 01:35:00 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2295): CodeIgniter\Database\BaseConnection->query('INSERT INTO `kelompokmasyarakats` (`kelompok_masyarakat`, `jenis`, `diinput_oleh`, `waktu_input`, `waktu_update`) VALUES (:kelompok_masyarakat:, :jenis:, :diinput_oleh:, :waktu_input:, :waktu_update:)', [...], false)
+ 2 SYSTEMPATH\Model.php(329): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(729): CodeIgniter\BaseModel->insert([...], false)
+ 5 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 6 APPPATH\Controllers\Api\KelompokMasyarakat.php(89): CodeIgniter\BaseModel->save([...])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->addData()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+11 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:38:09 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:38:09 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:38:09 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:38:09 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:42:44 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:42:44 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:42:44 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:42:44 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:43:44 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:43:44 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(36): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:43:45 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:43:45 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:46:35 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:46:35 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:46:36 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:46:36 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:47:03 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:47:03 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:47:03 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:47:03 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(37): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:49:46 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:49:46 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:49:47 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(38): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:49:47 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(38): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:50:07 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(38): CodeIgniter\BaseModel->findAll(10, 0)
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:50:07 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`
+ORDER BY `id` DESC
+ LIMIT 10', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(10, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(38): CodeIgniter\BaseModel->findAll(10, 0)
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->getData('10', '0')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 01:55:14 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 01:55:14 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 02:11:59 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 02:11:59 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')
+ERROR - 2023-02-13 02:13:01 --> mysqli_sql_exception: Table 'mysid.kelompokmasyarakats' doesn't exist in D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xampp1\htdocs\MySID\app\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+#8 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+#9 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xampp1\htdocs\MySID\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xampp1\htdocs\MySID\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(47): require_once('D:\\xampp1\\htdoc...')
+#12 {main}
+CRITICAL - 2023-02-13 02:13:01 --> Table 'mysid.kelompokmasyarakats' doesn't exist
+in SYSTEMPATH\Database\BaseConnection.php on line 645.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1602): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `kelompokmasyarakats`', [], false)
+ 2 SYSTEMPATH\Model.php(240): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\Api\KelompokMasyarakat.php(18): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Api\KelompokMasyarakat->pageGetData('10')
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Api\KelompokMasyarakat))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('FCPATH\\index.php')

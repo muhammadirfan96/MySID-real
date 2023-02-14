@@ -7,20 +7,20 @@ use CodeIgniter\Model;
 class DataBantuan extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'databantuans';
+    protected $table            = 'data_bantuans';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = ['id_bantuan', 'id_data_penduduk', 'diinput_oleh'];
 
     // Dates
-    protected $useTimestamps = false;
+    protected $useTimestamps = true;
     protected $dateFormat    = 'datetime';
-    protected $createdField  = 'created_at';
-    protected $updatedField  = 'updated_at';
+    protected $createdField  = 'waktu_input';
+    protected $updatedField  = 'waktu_update';
     protected $deletedField  = 'deleted_at';
 
     // Validation

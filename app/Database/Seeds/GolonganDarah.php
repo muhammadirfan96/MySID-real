@@ -8,6 +8,24 @@ class GolonganDarah extends Seeder
 {
     public function run()
     {
-        //
+        $data = [
+            [
+                'golongan_darah' => '-'
+            ],
+            [
+                'golongan_darah' => 'A'
+            ],
+            [
+                'golongan_darah' => 'B'
+            ],
+            [
+                'golongan_darah' => 'AB'
+            ],
+            [
+                'golongan_darah' => 'O'
+            ]
+        ];
+
+        $this->db->table('golongan_darahs')->insertBatch($data);
     }
 }

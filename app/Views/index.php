@@ -5,11 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
     <title><?= $title[0]; ?></title>
     <link rel="stylesheet" href="/fonts/andika/stylesheet.css">
     <link rel="stylesheet" href="/fonts/ff-din/black/stylesheet.css">
     <link rel="stylesheet" href="/bi/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/output.css">
     <script src="/js/jquery/script.js"></script>
 </head>
 
